@@ -166,7 +166,7 @@ else if (op1format.equals("не от 1 до 10") || op2format.equals("не от 
 
 
 //   Вывод данных в соответствии с требованиями
-        if (checkarabrim.equals("оба арабские")) System.out.println(res);
+        if (checkarabrim.equals("оба арабские")) System.out.println(res + "oK");
         else if (checkarabrim.equals("оба римские")) System.out.println(rimall[res]);
     }
 
